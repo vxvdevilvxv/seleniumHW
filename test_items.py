@@ -2,7 +2,7 @@ import time
 import unittest
 
 class TestPage:
-    def test_language_option(self, browser):
+    def test_button_add_to_cart(self, browser):
         link = 'http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/'
         browser.get(link)
         # 30 секунд (если лень ждать столько, поставь меньше) для проверки французского языка,
